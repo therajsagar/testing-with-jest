@@ -7,3 +7,11 @@ it('renders without crashing', () => {
   render(<App />, div);
   unmountComponentAtNode(div);
 });
+
+test(`Fake Test`, () => {
+  expect(true).toBeTruthy();
+});
+
+// test(`Fake Test`, () => {
+//   expect(false).toBeFalsy();
+// });
